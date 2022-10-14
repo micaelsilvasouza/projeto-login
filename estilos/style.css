@@ -67,3 +67,79 @@ div#formulario > h1{
 div#formulario > p{
     font-size: 0.8em;
 }
+
+form > div.campo{
+    display: block;
+    background-color: var(--lilas);
+    width: 100%;
+    height: 40px;
+    margin: 5px 0px;
+    border-radius: 8px;
+    border: 2px solid var(--lilas);
+}
+
+form > div.campo > label{
+    display: none;
+}
+
+form > div.campo > span{
+    color: white;
+    font-size: 2em;
+    padding: 5px;
+    width: 40px;
+}
+
+form > div.campo > input{
+    background-color: #67e9e4;
+    font-size: 1em;
+    width: calc(100% - 44px);
+    height: 100%;
+    padding: 4px;
+    border-radius: 8px;
+    border: none;
+    float: right;
+}
+
+form > div.campo > input:focus{
+    background-color: white;
+    border: none;
+}
+
+form > input[type=submit]{
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: var(--verde);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form > input[type=submit]:hover{
+    background-color: #2d6462;
+}
+
+form > a.botao{
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    padding-top: 5px;
+    margin-top: 5px;
+    background-color: white;
+    color: #2d6462;
+    text-decoration: none;
+    border: 1px solid #2d6462;
+    border-radius: 5px;
+}
+
+form > a.botao:hover{
+    background-color: #54c2be;
+}
+
+form > a.botao > i{
+    font-size: 0.8em;
+}
